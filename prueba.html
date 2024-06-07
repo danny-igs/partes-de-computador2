@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Datos</title>
+    <link href="menu.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="centro.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="barra">
+        <h2>Menu<img src="lista_icono.png" alt=""></h2>
+
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="partes de comp.html">Componentes</a></li>
+            <li><a href="mantenimiento.html">Mantenimiento</a></li>
+            <li><a href="prueba.html">Contactanos</a></li>
+            <li><a href="comentario.html">Comentario</a></li>
+        </ul>
+
+    </div>    
+    <form action="mailto:formas@gmail.com" method="post" enctype="text/plain">
+        <table border="5">
+            <tr height="50">
+                <td>Nombre</td>
+                <td>
+                    <input name="nombre" type="text" size="18" maxlength="18">
+                </td>
+            </tr>
+            <tr height="50">
+                <td>Apellidos</td>
+                <td>
+                    <input type="text" name="Apellidos" size="48" maxlength="48">
+                </td>
+            </tr>
+            <tr height="50">
+                <td>Fecha__naci</td>
+                <td>
+                    <input name="f_n" type="text" size="18" maxlength="18">
+                </td>
+            </tr>
+            <tr heigth="50">
+                <td>Dirección</td>
+                <td>
+                    <input type="text" name=" domicilio" size="48" maxlength="48">
+                </td>
+            </tr>
+            <tr height="50">
+                <td>Ciudad</td>
+                <td>
+                    <input type="text" name="cp" size="5" maxlength="5">
+                </td>
+            </tr>
+            <tr heigth="50">
+                <td>Provincias</td>
+                <td>
+                    <input type="text" name="ciudad" size="20" maxlength="20">
+                    &nbsp; &nbsp;
+                    Teléfono
+                    <input type="text" name="Teléfono" size="9">
+                </td>
+            </tr>
+            <tr height="50">
+                <td>Sexo</td>
+                <td><input type="radio" name="Sexo" value="H">Hombre
+                <input type="radio" name="sexo" value="M">Mujer
+                Estado civil
+                <select name="Estado_civil">
+                    <option>Soltero</option>
+                    <option>Casado</option>
+                    <option>Divoriado</option>
+                    <option>Otro</option>
+                </select>                   
+              <td>
+            </tr>
+            <tr height="50">
+                <td>Idiomas</td>
+                <td>
+                    <input type="checkbox" name="idiomas" value="E"> Español
+                    <input type="checkbox" name="idiomas" value="F"> Frances
+                    <input type="checkbox" name="idiomas" value="I"> Ingles
+                    <input type="checkbox" name="idiomas" value="A"> Alemán
+                </td>
+            </tr>
+            <tr height="50">
+                <td>Comentarios <br> Personales </td>
+                <td>
+                    <textarea name="Coment" rows="2" cols="44"></textarea>
+                </td>
+            </tr>
+            <tr height="50">
+                <td>Pulse aqui </td>
+                    <td align="center">
+                        <input type="submit" value="Enviar los datos">
+                        <input type="reset" value="borrar los datos">
+                    </td>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

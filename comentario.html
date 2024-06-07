@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="comentario.css">
+    <link href="menu.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="barra">
+        <h2>Menu<img src="lista_icono.png" alt=""></h2>
+
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="partes de comp.html">Componentes</a></li>
+            <li><a href="mantenimiento.html">Mantenimiento</a></li>
+            <li><a href="prueba.html">Contactanos</a></li>
+            <li><a href="comentario.html">Comentario</a></li>
+        </ul>
+
+    </div>  
+</header>
+    <div class="container">
+        <h1>Deja un Comentario </h1>
+        <form id="commentForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="comment">Comentario:</label><br>
+            <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
+            <button type="submit">Enviar Comentario</button>
+        </form>
+        <div id="comments"></div>
+    </div>
+    <script src="comentario.js"></script>
+</body>
+</html>
